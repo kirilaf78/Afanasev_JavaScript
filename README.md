@@ -2,7 +2,7 @@
 
 //Задание 1
 
-let word = 'Привет',
+    let word = 'Привет',
 
     sentence = 'Число, введеное вами не является большим семи',
     
@@ -20,7 +20,7 @@ let word = 'Привет',
 
 //Задание 2
 
-let hisName = 'Вячеслав',
+    let hisName = 'Вячеслав',
 
     typingName = prompt ('Введите имя:');
     
@@ -36,9 +36,9 @@ let hisName = 'Вячеслав',
 
 //Задание 3
 
-const divideOnThree = (a) => {
+    const divideOnThree = (a) => {
 
-  for (let i = 0; i <a.length; i++) {
+    for (let i = 0; i <a.length; i++) {
   
     if (a[i] % 3 === 0) {
     
