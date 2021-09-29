@@ -21,19 +21,29 @@ let word = 'Привет',
 //Задание 2
 
 let hisName = 'Вячеслав',
+
     typingName = prompt ('Введите имя:');
+    
     if (typingName.toLowerCase() ===  hisName.toLowerCase()) {
+    
       alert ('Привет, Вячеслав');
+      
     } else {
+    
       alert ('Нет такого имени');
+      
     }
 
 //Задание 3
 
 const divideOnThree = (a) => {
+
   for (let i = 0; i <a.length; i++) {
+  
     if (a[i] % 3 === 0) {
+    
       console.log(`${'Числo кратное трем: '}${a[i]}`);
+      
     }
   }
 }
